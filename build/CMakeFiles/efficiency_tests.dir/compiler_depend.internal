@@ -3,10 +3,10 @@
 
 CMakeFiles/efficiency_tests.dir/src/main.cpp.o
  /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/src/main.cpp
+ /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/introsort.h
  /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/mergesort.h
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/arrays.h
+ /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/quicksort.h
  /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/counter.h
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/mergeSortLogger.h
  /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/randomNumbersGen.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
