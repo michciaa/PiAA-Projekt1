@@ -1,6 +1,7 @@
 #pragma once 
 #include <vector>
 #include <algorithm>
+#include <functional>
 
 // sortowanie przez scalanie
 
@@ -8,10 +9,12 @@ template <typename T>
 class MergeSort
 {
 private:
+    template<typename Compare>
     static void merge(
         std::vector<T>& data,
         std::size_t left,
-        std::size_t right
+        std::size_t right,
+        Compare& comp
     )
     {
         if (left >= right) {
@@ -19,8 +22,8 @@ private:
         }
 
         std::size_t mid = left + (right - left) / 2;
-        merge(data, left, mid);
-        merge(data, mid + 1, right);
+        merge(data, left, mid, comp);
+        merge(data, mid + 1, right, comp);
 
         std::vector<T> temp;
         temp.reserve(right - left + 1);
@@ -29,7 +32,7 @@ private:
         std::size_t j = mid + 1;
 
         while (i <= mid && j <= right) {
-            if (data[i] <= data[j]) {
+            if (!comp(data[j], data[i])) {
                 temp.push_back(data[i++]);
             } else {
                 temp.push_back(data[j++]);
@@ -50,14 +53,15 @@ private:
     }
 
 public:
-    void sort(typename std::vector<T>::iterator start, typename std::vector<T>::iterator end)
+    template <typename Compare = std::less<T>>
+    void sort(typename std::vector<T>::iterator start, typename std::vector<T>::iterator end, Compare comp = Compare{})
     {
         if (start == end) {
             return;
         }
 
         std::vector<T> data(start, end);
-        merge(data, 0, data.size() - 1);
+        merge(data, 0, data.size() - 1, comp);
         std::copy(data.begin(), data.end(), start);
     }
 };

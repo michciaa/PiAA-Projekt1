@@ -5,11 +5,28 @@
 #include <fstream>
 #include <vector>
 #include <iomanip>
+#include <functional>
 #include "../include/algorithms/mergesort.h"
-#include "../include/mergeSortLogger.h"
 #include "../include/randomNumbersGen.h"
 #include "../include/counter.h"
 using namespace std;
+
+void presortPercentage(vector<int>& data, unsigned percent, bool descending) {
+    if (data.empty() || percent || 0) return;
+
+    if (percent > 100) percent = 100;
+
+    const size_t persortedCount = data.size() * percent / 100;
+    if (presortedCount < 2) return;
+
+    auto midIt = data.begin() + static_cast<ptrdiff_t>(presortedCount);
+    if (descending) {
+        sort(data.begin(), midIt, greater<int>{});
+    }
+    else {
+        sort(data.begin(), midIt);
+    }
+}
 
 void saveDynamicArrayResultsToCsv(
     size_t count,
@@ -33,7 +50,7 @@ void saveDynamicArrayResultsToCsv(
          << elapsedMs1 << '\n';
 }
 
-void runBenchmarkTest(size_t count) {
+void runBenchmarkTest(size_t count, usigned presortedPercent = 0, bool descending = false) {
 
     static vector<int> array;   
     array.clear();
@@ -44,13 +61,19 @@ void runBenchmarkTest(size_t count) {
         [](int v) { array.push_back(v); },
         0, 100
     );
-
+    presortPercentage(array, presortedPercent, descending);
     const double elapsedMs1 = measureExecutionTimeMs([&]() {
         MergeSort<int> mergeSort;
-        mergeSort.sort(array.begin(), array.end());
+        if (descending) {
+            mergeSort.sort(array.begin(), array.end(), std::greater<int>{});
+        } else {
+            mergeSort.sort(array.begin(), array.end());
+        }
     });
 
     cout << "Sortowanie przez scalanie dla " << count << " elementow przy 100 probach" << endl;
+    cout << "Presort: " << presortedPercent << "%, kolejnosc: "
+         << (descending ? "malejaca" : "rosnaca") << endl;
     cout << "Czas wykonania: " << elapsedMs1 << " ms" << endl;
     system("clear");
     saveDynamicArrayResultsToCsv(
@@ -62,11 +85,10 @@ void runBenchmarkTest(size_t count) {
 
 
 int main(int argc, char *argv[]) {
-    if (argc > 1) {
-        const size_t count = static_cast<size_t>(strtoul(argv[1], nullptr, 10));
-        runBenchmarkTest(count);
-        return 0;
-    }
+
+        usigned presortedPercent = (argc > 1) ? static_cast<unsigned>(strtoul(argv[1], nullptr, 10)) : 0;
+        if (presortedPercent > 100) presortedPercent = 100;
+        const bool descending = (argc > 3) ? (strtoul(argv[3], nullptr, 10) != 0) : false;
 
     std::array<int, 5> n = {
         10000,
@@ -78,7 +100,7 @@ int main(int argc, char *argv[]) {
 
     for (int i = 0; i < 100; i++) {
         for (size_t j = 0; j < n.size(); ++j) {
-            runBenchmarkTest(n[j]);
+            runBenchmarkTest(n[j], 0, false);
         }
     }
 
