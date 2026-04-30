@@ -11,5 +11,6 @@ target_link_libraries(test_sorting_algorithms sorting_algorithms_lib)
 
 add_executable(efficiency_tests
         src/main.cpp
-        randomNumbersGen.cpp)
+        
+        )
 target_link_libraries(efficiency_tests sorting_algorithms_lib)

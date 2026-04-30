@@ -3,14 +3,13 @@
 #include <array>
 #include <cstdlib>
 #include <fstream>
+#include <vector>
 #include <iomanip>
-#include "../headers/arrays.h"
-#include "../headers/mergeSort.h"
-#include "../headers/mergeSortLogger.h"
-#include "../headers/randomNumbersGen.h"
-#include "../headers/counter.h"
+#include "../include/algorithms/mergesort.h"
+#include "../include/mergeSortLogger.h"
+#include "../include/randomNumbersGen.h"
+#include "../include/counter.h"
 using namespace std;
-constexpr std::size_t N = 1000000;
 
 void saveDynamicArrayResultsToCsv(
     size_t count,
@@ -35,28 +34,25 @@ void saveDynamicArrayResultsToCsv(
 }
 
 void runBenchmarkTest(size_t count) {
-    if (count > N) {
-        cerr << "count > N (" << N << ")\n";
-        return;
-    }
 
-    static Array<int, N> array;   // <-- było: Array<int, N> array;
+    static vector<int> array;   
     array.clear();
 
     RandomElementsGenerator gen(count, 12345);
     gen.fillStructure(
         []() { array.clear(); },
-        [](int v) { array.addElement(v); },
+        [](int v) { array.push_back(v); },
         0, 100
     );
 
     const double elapsedMs1 = measureExecutionTimeMs([&]() {
-        MergeSort<int, N>::sort(array);
+        MergeSort<int> mergeSort;
+        mergeSort.sort(array.begin(), array.end());
     });
 
     cout << "Sortowanie przez scalanie dla " << count << " elementow przy 100 probach" << endl;
     cout << "Czas wykonania: " << elapsedMs1 << " ms" << endl;
-    system("CLS");
+    system("clear");
     saveDynamicArrayResultsToCsv(
         count,
         elapsedMs1

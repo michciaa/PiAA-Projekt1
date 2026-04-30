@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_sorting_algorithms.dir/src/test_sorting_algorithms.cpp.o -o test_sorting_algorithms 
