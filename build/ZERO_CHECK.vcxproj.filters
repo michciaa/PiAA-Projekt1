@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\michcia\OneDrive - Politechnika Wroclawska\PiAA\projekt1\MichalSuchonProjektSortowanie\build\CMakeFiles\fd080ee250bafcb4bfab1b326d1e0a0f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9B8C2808-083D-3000-AFEC-E619BE6F1858}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

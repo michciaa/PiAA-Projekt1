@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sorting_algorithms",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "efficiency_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-efficiency_tests-Debug-582a6f8c6178e20fee81.json",
+					"name" : "efficiency_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sorting_algorithms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sorting_algorithms-Debug-e5fb180ac89f2848f3aa.json",
+					"name" : "test_sorting_algorithms",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/michcia/OneDrive - Politechnika Wroclawska/PiAA/projekt1/MichalSuchonProjektSortowanie/out/build/x64-Debug",
+		"source" : "C:/Users/michcia/OneDrive - Politechnika Wroclawska/PiAA/projekt1/MichalSuchonProjektSortowanie"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
