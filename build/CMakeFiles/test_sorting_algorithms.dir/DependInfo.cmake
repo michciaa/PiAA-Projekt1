@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/src/test_sorting_algorithms.cpp" "CMakeFiles/test_sorting_algorithms.dir/src/test_sorting_algorithms.cpp.o" "gcc" "CMakeFiles/test_sorting_algorithms.dir/src/test_sorting_algorithms.cpp.o.d"
+  "/home/michcia/projekty/MichalSuchonProjektSortowanie/src/test_sorting_algorithms.cpp" "CMakeFiles/test_sorting_algorithms.dir/src/test_sorting_algorithms.cpp.o" "gcc" "CMakeFiles/test_sorting_algorithms.dir/src/test_sorting_algorithms.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

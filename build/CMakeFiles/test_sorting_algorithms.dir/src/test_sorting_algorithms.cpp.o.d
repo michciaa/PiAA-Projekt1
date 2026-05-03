@@ -1,7 +1,7 @@
 CMakeFiles/test_sorting_algorithms.dir/src/test_sorting_algorithms.cpp.o: \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/src/test_sorting_algorithms.cpp \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/src/test_sorting_algorithms.cpp \
  /usr/include/stdc-predef.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/catch2/catch.hpp \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/include/catch2/catch.hpp \
  /usr/include/c++/13/cstddef \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -281,10 +281,10 @@ CMakeFiles/test_sorting_algorithms.dir/src/test_sorting_algorithms.cpp.o: \
  /usr/include/c++/13/bits/regex_executor.h \
  /usr/include/c++/13/bits/regex_executor.tcc /usr/include/c++/13/iterator \
  /usr/include/c++/13/bits/stream_iterator.h /usr/include/c++/13/iostream \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/bubblesort.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/insertsort.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/heapsort.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/mergesort.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/shellsort.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/quicksort.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/introsort.h
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/include/algorithms/bubblesort.h \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/include/algorithms/insertsort.h \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/include/algorithms/heapsort.h \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/include/algorithms/mergesort.h \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/include/algorithms/shellsort.h \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/include/algorithms/quicksort.h \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/include/algorithms/introsort.h

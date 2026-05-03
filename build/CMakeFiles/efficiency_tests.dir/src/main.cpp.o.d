@@ -1,5 +1,5 @@
 CMakeFiles/efficiency_tests.dir/src/main.cpp.o: \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/src/main.cpp \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -182,11 +182,10 @@ CMakeFiles/efficiency_tests.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/stl_tempbuf.h /usr/include/c++/13/algorithm \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/src/../include/algorithms/mergesort.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/src/../include/algorithms/quicksort.h \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/src/../include/algorithms/mergesort.h \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/src/../include/algorithms/quicksort.h \
  /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/src/../include/algorithms/introsort.h \
- /usr/include/c++/13/cmath /usr/include/math.h \
+ /usr/include/c++/13/random /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -208,19 +207,19 @@ CMakeFiles/efficiency_tests.dir/src/main.cpp.o: \
  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/heapsort.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/src/../include/randomNumbersGen.h \
- /usr/include/c++/13/cstdint \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
- /usr/include/c++/13/ratio /usr/include/c++/13/bits/parse_numbers.h \
- /usr/include/c++/13/optional /usr/include/c++/13/random \
  /usr/include/c++/13/bits/random.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
  /usr/include/c++/13/bits/random.tcc /usr/include/c++/13/numeric \
  /usr/include/c++/13/bits/stl_numeric.h \
  /usr/include/c++/13/pstl/glue_numeric_defs.h \
- /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/src/../include/counter.h
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/src/../include/algorithms/introsort.h \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/include/algorithms/heapsort.h \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/src/../include/randomNumbersGen.h \
+ /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
+ /usr/include/c++/13/ratio /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/optional \
+ /home/michcia/projekty/MichalSuchonProjektSortowanie/src/../include/counter.h

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include
+CXX_INCLUDES = -I/home/michcia/projekty/MichalSuchonProjektSortowanie/include
 
 CXX_FLAGS = 
 

@@ -1,4 +1,4 @@
-/home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/build/CMakeFiles/test_sorting_algorithms.dir
-/home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/build/CMakeFiles/efficiency_tests.dir
-/home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/build/CMakeFiles/edit_cache.dir
-/home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/build/CMakeFiles/rebuild_cache.dir
+/home/michcia/projekty/MichalSuchonProjektSortowanie/build/CMakeFiles/test_sorting_algorithms.dir
+/home/michcia/projekty/MichalSuchonProjektSortowanie/build/CMakeFiles/efficiency_tests.dir
+/home/michcia/projekty/MichalSuchonProjektSortowanie/build/CMakeFiles/edit_cache.dir
+/home/michcia/projekty/MichalSuchonProjektSortowanie/build/CMakeFiles/rebuild_cache.dir
