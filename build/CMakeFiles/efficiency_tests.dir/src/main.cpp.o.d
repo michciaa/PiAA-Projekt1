@@ -209,6 +209,7 @@ CMakeFiles/efficiency_tests.dir/src/main.cpp.o: \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+ /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/include/algorithms/heapsort.h \
  /home/michcia/Pulpit/PiAA/projekt1/PiAA-Projekt1/src/../include/randomNumbersGen.h \
  /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \

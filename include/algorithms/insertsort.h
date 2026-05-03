@@ -1,8 +1,8 @@
 #ifndef SORTING_ALGORITHMS_INSERTSORT_H
 #define SORTING_ALGORITHMS_INSERTSORT_H
-#include <vector>
 
-// sortowanie przez wstawianie
+#include <algorithm>
+#include <vector>
 
 template <typename T>
 class InsertSort

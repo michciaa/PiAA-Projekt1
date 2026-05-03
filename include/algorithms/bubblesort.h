@@ -1,8 +1,8 @@
 #ifndef SORTING_ALGORITHMS_BUBBLESORT_H
 #define SORTING_ALGORITHMS_BUBBLESORT_H
-#include <vector>
 
-// sortowanie bąbelkowe
+#include <algorithm>
+#include <vector>
 
 template <typename T>
 class BubbleSort

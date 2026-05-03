@@ -1,8 +1,8 @@
 #ifndef SORTING_ALGORITHMS_SHELLSORT_H
 #define SORTING_ALGORITHMS_SHELLSORT_H
-#include <vector>
 
-// sortowanie Shella
+#include <algorithm>
+#include <vector>
 
 template <typename T>
 class ShellSort
@@ -12,4 +12,5 @@ public:
     {
     };
 };
+
 #endif //SORTING_ALGORITHMS_SHELLSORT_H
