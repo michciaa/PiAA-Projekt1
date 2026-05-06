@@ -1,0 +1,11 @@
+# ninja log v6
+12	758	7996879939907822	CMakeFiles/efficiency_tests.dir/src/main.cpp.obj	509604d2983513a1
+759	1073	7996879947373459	efficiency_tests.exe	95801f8b9647bd23
+8	2323	7996879939857795	CMakeFiles/test_sorting_algorithms.dir/src/test_sorting_algorithms.cpp.obj	732f1a418d1fc4aa
+2324	2656	7996879963016866	test_sorting_algorithms.exe	949d1d753427fbd6
+20	709	7996893808528930	CMakeFiles/efficiency_tests.dir/src/main.cpp.obj	509604d2983513a1
+710	892	7996893815416743	efficiency_tests.exe	95801f8b9647bd23
+50	874	7997051013181556	CMakeFiles/efficiency_tests.dir/src/main.cpp.obj	509604d2983513a1
+875	1097	7997051021435491	efficiency_tests.exe	95801f8b9647bd23
+19	929	7997117376166346	CMakeFiles/efficiency_tests.dir/src/main.cpp.obj	509604d2983513a1
+930	1171	7997117385282783	efficiency_tests.exe	95801f8b9647bd23

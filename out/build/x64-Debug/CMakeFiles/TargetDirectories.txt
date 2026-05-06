@@ -1,0 +1,4 @@
+C:/Users/michcia/OneDrive - Politechnika Wroclawska/PiAA/projekt1/FINAL/MichalSuchonProjektSortowanie/out/build/x64-Debug/CMakeFiles/test_sorting_algorithms.dir
+C:/Users/michcia/OneDrive - Politechnika Wroclawska/PiAA/projekt1/FINAL/MichalSuchonProjektSortowanie/out/build/x64-Debug/CMakeFiles/efficiency_tests.dir
+C:/Users/michcia/OneDrive - Politechnika Wroclawska/PiAA/projekt1/FINAL/MichalSuchonProjektSortowanie/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/michcia/OneDrive - Politechnika Wroclawska/PiAA/projekt1/FINAL/MichalSuchonProjektSortowanie/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
